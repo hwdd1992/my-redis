@@ -11,7 +11,8 @@ set(SRC_SERVER_TMP
         src/adlist.c
         src/ae.c
         src/anet.c
-        src/ae_kqueue.c
+#        src/ae_kqueue.c
+        src/ae_select.c
         src/dict.c
         src/sds.c
         src/zmalloc.c
